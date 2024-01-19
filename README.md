@@ -234,4 +234,44 @@ Example usage
 
 ![image](https://github.com/batooldshilleh/ComputerVisionBootcamp/assets/93814390/215f6662-0f0f-447f-a2c5-548ce6b1e112)
 
+### Task 6: 
+ **📑 Code Explanation**
+```python
+import numpy as np
+```
+import numpy library
+
+ ```python
+def solve_linear_system(A, b):
+    x = np.linalg.solve(A, b)
+    return x
+```
+Use NumPy's linear algebra solver to find the solution
+
+ ```python
+A = np.array([[1, 2, 3],
+              [2, 5, 3],
+              [2, 0, 8]])
+
+b = np.array([10, 15, 20])
+```
+Define the coefficients matrix A and the right-hand side vector b
+
+ ```python
+solution = solve_linear_system(A, b)
+```
+Call the function to solve the system of linear equations
+
+ ```python
+print("Solution vector x:")
+print(solution)
+
+```
+print
+
+**📊 Out Put**
+
+![image](https://github.com/batooldshilleh/ComputerVisionBootcamp/assets/93814390/7faa8037-195a-4ceb-9a29-7a6b8949d3fe)
+
+
 
