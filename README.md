@@ -78,4 +78,37 @@ Print
 
 ![image](https://github.com/batooldshilleh/ComputerVisionBootcamp/assets/93814390/c9afb545-5eca-4fd4-8291-89f5975f7f92)
 
+## Object-Oriented Programming (OOP): 
+### Task 3: 
+ **📑 Code Explanation**
+```python
+class Product:
+    def __init__(self, name, price, quantity):
+        self.name = name
+        self.price = price
+        self.quantity = quantity
+
+    def calculate_total_price(self):
+        return self.price * self.quantity
+```
+ Create class with three Argumants name , price ,quantity
+ and function (method) for calculate price
+
+ ```python
+apple = Product(name='Apple', price=2.50, quantity=5)
+```
+Create instance
+
+ ```python
+print("Product Name:", apple.name)
+print("Price per unit:", apple.price)
+print("Quantity:", apple.quantity)
+print("Total Price:", apple.calculate_total_price())
+```
+Print and use instance
+
+**📊 Out Put**
+
+![image](https://github.com/batooldshilleh/ComputerVisionBootcamp/assets/93814390/b163a4b0-c292-4954-bfcd-f2615bee757d)
+
 
